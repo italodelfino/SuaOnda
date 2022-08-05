@@ -1,14 +1,16 @@
 
 .formulario{
-    width: 500px;
-    padding: 0px;
-    border:1px solid #ccc;
-    
+    width: 400px;
+    padding: 10px;
+    border-radius: none;
+    border-color: #1f2e36;
+        
     
 }
 .formulario p{
     width: 100%;
     font-size: 1.5em;
+    color: #1f2e36;
    
 }
 .field{
@@ -21,6 +23,7 @@
     font-size: 1.1em;
     display: block;
     width: 100%;
+    color: #1f2e36;
 }
 .radiobox label{
     width: auto;
@@ -36,6 +39,7 @@ textarea{
     border-radius: 15px;
     border: 1px solid #ccc;
     outline: none;
+    
 }
 input#nao{
     margin-left: 30px;
@@ -45,10 +49,11 @@ textarea{
     padding: 10px;
     height: 90px;
     resize: none;
+    
 }
 input[type=submit]{
     display: block;
-    background-color: #ccc;
+    background-color: #1f2e36;
     height: 35px;
     border: none;
     outline: 0;
@@ -57,4 +62,16 @@ input[type=submit]{
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
+    color: #ccc;
+}
+.banner2{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('imagens/surfe2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

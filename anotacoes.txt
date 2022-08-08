@@ -1,0 +1,8 @@
+<div class="infosPayment">
+<div class="footerTitle">
+    <h5>Métodos de pagamentos aceitos</h5>
+</div>
+<div>
+    <img src="./imagens/Métodos de pagamentos aceitos.webp" alt="Métodos de pagamentos aceitos">
+</div>
+</div>

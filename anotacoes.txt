@@ -6,3 +6,5 @@
     <img src="./imagens/Métodos de pagamentos aceitos.webp" alt="Métodos de pagamentos aceitos">
 </div>
 </div>
+
+0 4px 8px rgb(30 60 90 / 15%);

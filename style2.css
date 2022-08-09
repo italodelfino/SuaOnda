@@ -64,4 +64,71 @@ input[type=submit]{
     float: center;
     direction: center;
 }
-   
+.card {
+    width: 20rem;
+    box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.13);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 2.6rem;
+    display: inline-block;
+    text-align: center;
+}
+.card:hover{
+    transform:scale(1.10,1.10)!important
+}
+
+.card img {
+    width: auto;
+    max-height: 15.5rem;
+    border-radius: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.card .price,
+#info .price,
+#cart-text .price {
+    color: var(--main-color);
+}
+
+.card h2, p {
+    text-align: left;
+}
+
+.card h2{
+    font-size: 1.3rem;
+    margin: 0.8rem 0;
+}
+
+.card p{
+    font-size: 1rem;
+}
+
+.card h2,
+.card p, 
+#info,
+#text-suggest h2,
+.cart{
+    color: #345;
+}
+#search {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#search input {
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgb(30 60 90 / 15%);
+}
+
+#search input {
+    width: 14rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    color: #1f2e36;
+}
